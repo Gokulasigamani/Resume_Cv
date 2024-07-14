@@ -4,6 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BootLogo from "../assets/BootLogo.png";
 import Css from "../assets/CSS.png";
+import Express from "../assets/Express.png";
+import Html from "../assets/Html.png";
+import Mongo from "../assets/Mongo.png";
+import ReactLogo from "../assets/React.png";
+import Tailwind from "../assets/Tailwind.png";
 
 function AutoSlider() {
   const settings = {
@@ -17,30 +22,38 @@ function AutoSlider() {
     cssEase: "linear"
   };
 
-  return (
-    <div className="slider-container overflow-hidden bg-neutral-800 max-sm:w-full h-[200px]  flex justify-center items-center">
-    <Slider {...settings}>
-      <div>
-        <img src={Css} alt="" />
-      </div>
-      <div>
-      <img src={BootLogo} alt="" />
+  const imageStyle = {
+    width: "100px", // Set the desired width
+    height: "100px", // Set the desired height
+    objectFit: "contain" // Ensures the image fits within the specified dimensions
+  };
 
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
-  </div>
+  return (
+    <div className="max-sm:w-full py-5 back overflow-hidden  ">
+      <Slider {...settings}>
+        <div className="p-2 flex items-center justify-center">
+          <img src={Css} alt="CSS" style={imageStyle} />
+        </div>
+        <div className="p-2 flex items-center justify-center">
+          <img src={BootLogo} alt="Bootstrap" style={imageStyle} />
+        </div>
+        <div className="p-2 flex items-center justify-center">
+          <img src={Express} alt="Express" style={imageStyle} />
+        </div>
+        <div className="p-2 flex items-center justify-center">
+          <img src={Mongo} alt="MongoDB" style={imageStyle} />
+        </div>
+        <div className="p-2 flex items-center justify-center">
+          <img src={ReactLogo} alt="React" style={imageStyle} />
+        </div>
+        <div className="p-2 flex items-center justify-center">
+          <img src={Tailwind} alt="Tailwind CSS" style={imageStyle} className="w-[500px]" />
+        </div>
+        <div className="p-2 flex items-center justify-center">
+          <img src={Html} alt="HTML" style={imageStyle} />
+        </div>
+      </Slider>
+    </div>
   );
 }
 
