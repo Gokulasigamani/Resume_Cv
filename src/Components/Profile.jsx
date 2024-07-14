@@ -37,7 +37,7 @@ function Profile() {
            <button className="px-5 py-2 bg-yellow-400 shadow-md font-semibold  rounded-xl ">
               <a
                 className="button"
-                href="../assets/Resume/ResumeOfficial.pdf"
+                href="https://drive.google.com/file/d/18k0_P5MufLa-ZsTOqxVTxkCzDeMh8hRI/view?usp=sharing"
                 download
               >
                 Download Resume
