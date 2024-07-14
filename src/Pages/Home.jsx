@@ -3,6 +3,7 @@ import Profile from "../Components/Profile";
 import Skills from "../Components/Skills";
 import About from "../Components/About";
 import AutoSlider from "../Components/AutoSlider";
+import Projects from "../Components/Projects";
 
 function Home()
 {
@@ -14,6 +15,7 @@ function Home()
                 <About/>
                 <Skills/>
                 <AutoSlider/>
+                <Projects/>
 
             </main>
         </>

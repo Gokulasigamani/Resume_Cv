@@ -16,7 +16,7 @@ function AutoSlider() {
     infinite: true,
     speed: 2000,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 1, // Changed to 1 for smoother transition
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear"
@@ -29,7 +29,7 @@ function AutoSlider() {
   };
 
   return (
-    <div className="max-sm:w-full py-5 back overflow-hidden  ">
+    <div className="max-sm:w-full py-5  back overflow-hidden  mt-5 ">
       <Slider {...settings}>
         <div className="p-2 flex items-center justify-center">
           <img src={Css} alt="CSS" style={imageStyle} />
@@ -47,7 +47,7 @@ function AutoSlider() {
           <img src={ReactLogo} alt="React" style={imageStyle} />
         </div>
         <div className="p-2 flex items-center justify-center">
-          <img src={Tailwind} alt="Tailwind CSS" style={imageStyle} className="w-[500px]" />
+          <img src={Tailwind} alt="Tailwind CSS" style={imageStyle} />
         </div>
         <div className="p-2 flex items-center justify-center">
           <img src={Html} alt="HTML" style={imageStyle} />
