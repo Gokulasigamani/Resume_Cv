@@ -7,7 +7,7 @@ function Projects()
 {
     return(
         <>
-        <div className="max-sm:w-full py-4 mt-8 bg-neutral-800 mb-5 " >
+        <div className="max-sm:w-full py-4 mt-8 bg-neutral-800  " >
             <h1 className="text-center text-white text-3xl font-semibold pt-2 " >Projects</h1>
             
             <div className="w-[340px] h-[200px] m-auto mt-8 relative  " >

@@ -4,6 +4,7 @@ import Skills from "../Components/Skills";
 import About from "../Components/About";
 import AutoSlider from "../Components/AutoSlider";
 import Projects from "../Components/Projects";
+import Contact from "../Components/Contact";
 
 function Home()
 {
@@ -16,6 +17,7 @@ function Home()
                 <Skills/>
                 <AutoSlider/>
                 <Projects/>
+                <Contact/>
 
             </main>
         </>
